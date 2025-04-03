@@ -84,11 +84,10 @@ L'ensemble est conteneurisé avec Docker pour faciliter le déploiement et le d�
    ```
 
 3. Accéder à l'application :
-   - Frontend : http://localhost:3000 (configurable via FRONTEND_PORT)
-   - API Backend : http://localhost:8080 (configurable via BACKEND_PORT)
-   - Base de données : localhost:5432 (configurable via DB_PORT)
+   - Frontend : http://localhost:FRONTEND_PORT
+   - API Backend : http://localhost:BACKEND_PORT
+   - Base de données : localhost:DB_PORT
    
-   Note : Tous les ports peuvent être configurés dans le fichier .env
 
 ### Développement Local
 
